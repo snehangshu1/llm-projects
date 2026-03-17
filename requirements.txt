@@ -1,0 +1,8 @@
+langchain
+openai
+google-generativeai
+gradio
+python-dotenv
+pypdf
+chromadb
+Gemini 1.5/2.0 Flash
