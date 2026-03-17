@@ -1,24 +1,43 @@
 # LLM Innovation Hub 🚀
-A collection of advanced Large Language Model applications ranging from RAG systems to Autonomous Agents.
+An advanced collection of Generative AI applications featuring Agentic workflows, RAG systems, and interactive assistants powered by **Gemini 1.5 Flash**.
 
-## 🛠 Project Portfolio
+## 🏗️ Project Portfolio
 
 ### 1. SkillMap Agent 🤖
-An intelligent agent designed to map and analyze professional skills.
-- **Tech:** LangChain, OpenAI, Agentic Workflows.
-- **Key Feature:** Autonomous decision-making for career pathing.
+An autonomous agent that reasons through career goals to map out professional growth.
+- **Model:** Gemini 1.5 Flash (via Google Generative AI)
+- **Framework:** LangChain (ReAct Logic)
+- **Key Feature:** Uses a reasoning loop to identify skill gaps and suggest actionable learning paths.
+- **File:** [SkillMap_Agent.ipynb](./SkillMap_Agent.ipynb)
 
 ### 2. DocuChat Application 📄
-A robust RAG (Retrieval-Augmented Generation) system for querying private documents.
-- **Tech:** ChromaDB/Pinecone, Vector Embeddings, LangChain.
-- **Key Feature:** High-accuracy context retrieval from PDFs.
+A high-performance RAG (Retrieval-Augmented Generation) system for deep document analysis.
+- **Model:** Gemini 1.5 Flash + Google Embeddings
+- **Vector DB:** ChromaDB
+- **Key Feature:** Context-aware querying that processes large PDFs with high retrieval accuracy.
+- **File:** [Building_DocuChat_Application.ipynb](./Building_DocuChat_Application.ipynb)
 
-### 3. I Study Assistant 🎓
-An interactive educational tool with a user-friendly interface.
-- **Tech:** Gradio, GPT-4, Python.
-- **Key Feature:** Real-time tutoring and summary generation.
+### 3. AI Study Assistant 🎓
+An interactive educational platform designed for real-time tutoring.
+- **UI:** Gradio
+- **Model:** Gemini 1.5 Flash
+- **Key Feature:** A user-friendly interface for summarizing complex topics and generating study notes instantly.
+- **File:** [study_assistant_using_Gradio.ipynb](./study_assistant_using_Gradio.ipynb)
+
+---
+
+## 🛠️ Tech Stack
+* **LLMs:** Gemini 1.5/2.0 Flash (Google)
+* **Orchestration:** LangChain
+* **Database:** ChromaDB
+* **UI:** Gradio
+* **Environment:** Python 3.10+, Jupyter Notebook
+
+---
 
 ## 🚀 Getting Started
-1. Clone the repo: `git clone https://github.com/snehangshu1/llm-projects.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Add your `.env` file with your API keys.
+
+1. **Clone the repo:**
+   ```bash
+   git clone [https://github.com/snehangshu1/llm-projects.git](https://github.com/snehangshu1/llm-projects.git)
+   cd llm-projects
